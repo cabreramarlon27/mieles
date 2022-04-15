@@ -1,0 +1,9 @@
+checkout this commands:
+worktree
+update-index
+add -p
+--ammend read more options
+bisect - this one is tricky
+blame more options
+diff --staged
+

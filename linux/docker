@@ -1,0 +1,50 @@
+Link of presentation for docker-compose
+https://mega.nz/file/QK5iEB6I#d8QBzCBaNZhEZUaW4Lcrf5XBHB0sCBew7NFbJeHKdnU
+
+Ejecutar container
+docker run
+
+ver imagenes
+docker images
+
+descargar imagen
+docker pull repository/image
+
+listar containers corriendo o todos
+docker ps
+docker ps -a
+
+para saber el ip de docker
+docker-machine ip default
+
+start/stop container
+docker stop container-name
+
+Etiquetar img(para subirlo al repo)
+docker tag est-mysql javajudd/est-mysql:1.0
+
+Eliminar container
+docker rm container-name
+
+ELiminar img
+docker rmi image-name
+
+Eliminar img sin nombre
+docker rmi $(docker images -q -f dangling=true)
+
+Ver puerto expuesto por container
+docker port container-name
+
+Listar procesos corriendo en container
+docker top container-name
+
+Execute commands
+docker exec container-name comand
+
+ssh al container
+docker exec -it container-name bash
+
+Ver como funcionan los volumes
+
+Password de BCI3
+1Secure*Password1

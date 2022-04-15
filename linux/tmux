@@ -1,0 +1,9 @@
+Sessions -> tmux list-sessions
+Save sessions -> new-session -s hello
+Kill session -> kill-session -t hello
+Enter in copy mode -> prefix [
+Quit copy mode -> Q
+Scroll up in copy mode -> Ctrl u
+Scroll down in copy mode -> Ctrl d
+Search in copy mode -> /
+
