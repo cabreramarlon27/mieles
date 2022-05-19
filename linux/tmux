@@ -6,4 +6,9 @@ Quit copy mode -> Q
 Scroll up in copy mode -> Ctrl u
 Scroll down in copy mode -> Ctrl d
 Search in copy mode -> /
+Detach session ctrl+a + d
+new window ctrl+a + c
+swith window key + n or p
+list window key + w
+delete current window key + &
 
