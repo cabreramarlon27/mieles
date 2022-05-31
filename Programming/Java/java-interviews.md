@@ -16,43 +16,29 @@
     * Is a variable that won't be serialized.
 * **Static binding vs dynamic binding.**
     * Need to find a better explanation
-* **
-
-## Data structures [Read More](https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0)
-
-### List
-* **Which list implementations is faster?**
-    * LinkedList, implementations that use arrays are slower the the shifted and the last position added.
-* **What differences exist between Iterator and ListIterator?**
-    * An Iterator can be used to traverse the Set and List collections, while the ListIterator can be used to iterate only over Lists.
-    * The Iterator can traverse a collection only in the forward direction, while the ListIterator can traverse a List in both directions.
-    * The ListIterator implements the Iterator interface and contains extra functionality, such as adding an element, replacing an element, getting the index position for previous and next elements, etc.
-
-### Maps
-* **What is the difference between HashMap and Hashtable?**
-    * HashMap allows null keys and values
-    * Hastable is syncronized and HashMap not. HashMap is preferred for single threaded environments
-    * HashMap can be iterated over its set of keys and is fail-fast
-    * Hashtable is considered legacy class
-
-
-### Arrays
-1. How do you find the missing number in a given integer array of 1 to 100?
-2. How do you find the duplicate number on a given integer array?
-3. How do you find the largest and smallest number in an unsorted integer array?
-4. How do you find all pairs of an integer array whose sum is equal to a given number?
-5. How do you find duplicate numbers in an array if it contains multiple duplicates?
-6. How are duplicates removed from a given array in Java?
-7. How is an integer array sorted in place using the quicksort algorithm?
-8. How do you remove duplicates from an array in place?
-9. How do you reverse an array in place in Java?
-10. How are duplicates removed from an array without using any library?
-
+* **What is the difference between Comparable and Comparator?**
+    * Need to dig more
+*
 ## Threads
 
 ## Completable futures
 
 ## Performance
+
+### Garbage Collectors
+* **What does System.gc and Runtime.gc methods do?**
+    * These methods can be used as a hint to the JVM, in order to start a garbage collection. However, this it is up to the Java Virtual Machine (JVM) to start the garbage collection immediately or later in time.
+* **If an object reference is set to null, will the Garbage Collector immediately free the memory held by that object?**
+    * No, the object will be available for garbage collection in the next cycle of the garbage collector.
+* **When does an Object becomes eligible for Garbage collection in Java?**
+    * A Java object is subject to garbage collection when it becomes unreachable to the program in which it is currently used.
+
+### Java memory management
+**Future lectures**
+* [Sun HotSpot VM](https://javaeesupportpatterns.blogspot.com/2011/08/java-heap-space-hotspot-vm.html)
+* [IBM VM](https://javaeesupportpatterns.blogspot.com/2012/02/java-heap-space-ibm-vm.html)
+* [Oracle JRockit VM](https://javaeesupportpatterns.blogspot.com/2012/02/java-heap-space-jrockit-vm.html)
+* [Oracle - Java memory management white paper](http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf)
 
 ## Algorthims
 
@@ -70,7 +56,12 @@
 |Radix Sort|	Ω(nk)|	θ(nk)|	O(nk)
 |Count Sort|	Ω(n+k)|	θ(n+k)|	O(n+k)
 
-## Spring and Spring boot
 
 
 ## Java versions
+
+## Complexity
+
+## Exception Handling
+* **What is the difference between Exception and Error in java?**
+    * Exception and Error classes are both subclasses of the Throwable class. The Exception class is used for exceptional conditions that a user’s program should catch. The Error class defines exceptions that are not expected to be caught by the user program.
