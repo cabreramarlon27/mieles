@@ -1,0 +1,29 @@
+To update the package database and update all packages on the system
+
+sudo pacman -Syu
+
+To force a full refresh of the package database and update all packages on the system. You must do this when switching branches or switching mirrors.
+
+sudo pacman -Syyu
+
+To force a full refresh of the package database, update all packages on the system and allow packages to be downgraded. Downgrading should be only be needed when switching to an older branch. For example, switching from Testing to Stable.
+
+sudo pacman -Syyuu
+
+To search the Manjaro repositories for available packages you can use the command pacman -Ss keyword. It will search both the package name and the description for the keyword. For example, to search for packages containing the keyword smplayer you could use:
+
+pacman -Ss smplayer
+
+You can search your installed packages in the same manner using -Qs instead of -Ss. To search your installed packages for smplayer:
+
+pacman -Qs smplayer
+
+Once you have found a package you can use pacman -Qi to get more information about an installed packages or pacman -Si for packages in the repos. Following the example above you could use
+
+pacman -Si smplayer
+
+Finally, for a list of all installed packages on your system, enter the following command:
+
+pacman -Ql
+
+sudo pacman -Syu smplayer

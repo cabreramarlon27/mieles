@@ -40,6 +40,13 @@
 * [Oracle JRockit VM](https://javaeesupportpatterns.blogspot.com/2012/02/java-heap-space-jrockit-vm.html)
 * [Oracle - Java memory management white paper](http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf)
 
+**How many types of mamory areas are allocated by JVM?**
+1. Class(Method) Area: Class Area stores per-class structures such as the runtime constant pool, field, method data, and the code for methods.
+2. Heap: It is the runtime data area in which the memory is allocated to the objects
+3. Stack: Java Stack stores frames. It holds local variables and partial results, and plays a part in method invocation and return. Each thread has a private JVM stack, created at the same time as the thread. A new frame is created each time a method is invoked. A frame is destroyed when its method invocation completes.
+4. Program Counter Register: PC (program counter) register contains the address of the Java virtual machine instruction currently being executed.
+5. Native Method Stack: It contains all the native methods used in the application.
+
 ## Algorthims
 
 ### Sorts algorithms

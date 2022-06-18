@@ -1,0 +1,56 @@
+Listar directorios 
+ls -d */
+
+Dir ocultos
+find . -maxdepth 1 -type d
+
+
+Abrir ficheros de texto
+cat, tail, more, pg, head, less
+
+Para saber el tipo de fichero
+file nombreFich
+
+
+Para listar los dir de a poco
+ls -la /etc | more
+
+Saber la ruta en la que estas
+pwd
+
+Crear fichero 
+touch nombreFich
+
+Crear dir
+mkdir
+mkdir -p dirPath
+
+Para buscar
+grep
+
+
+Crear usd booteable con linux
+1. Connect the USB flash drive to your PC, open a terminal and cd
+to where you downloaded the disc image.
+2. Check the device identifier with:
+sudo fdisk -l.
+3. Write the image with:
+sudo dd if=manjaro-xfce-15.09-rc3-x86_64.iso of=/dev/(Device
+identifier from above) bs=4M
+My USB drive is at /dev/sdc so I would use:
+sudo dd if=manjaro-xfce-15.09-rc3-x86_64.iso of=/dev/sdc
+bs=4M
+4. Once completed reboot your system and boot from the USB drive
+in the normal way.
+
+
+Abrir el azureDB
+
+cd ~ 
+cp ~/Downloads/azuredatastudio-linux-<version string>.tar.gz ~ 
+tar -xvf ~/azuredatastudio-linux-<version string>.tar.gz 
+echo 'export PATH="$PATH:~/azuredatastudio-linux-x64"' >> ~/.bashrc
+source ~/.bashrc 
+azuredatastudio
+
+pag 89 del libro Ultimate step by step

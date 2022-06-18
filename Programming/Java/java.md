@@ -1,8 +1,8 @@
 # Things to learn
 
 ## Books to read
-1. Cracking code interview
-2. Effective Java
+1. Effective Java
+2. Cracking code interview
 3. The one for java interviews.
 4. Clean Code
 5. Clean Architecture
