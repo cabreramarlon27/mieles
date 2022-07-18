@@ -1,6 +1,8 @@
 Link of presentation for docker-compose
 https://mega.nz/file/QK5iEB6I#d8QBzCBaNZhEZUaW4Lcrf5XBHB0sCBew7NFbJeHKdnU
 
+Ver como funcionan los volumes
+
 Ejecutar container
 docker run
 
@@ -43,8 +45,6 @@ docker exec container-name comand
 
 ssh al container
 docker exec -it container-name bash
-
-Ver como funcionan los volumes
 
 Password de BCI3
 1Secure*Password1
