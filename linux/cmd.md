@@ -8,6 +8,8 @@ exa instead of ls or ll
 open file with fzf in vim
 vim -o `fzf`
 
+### Check again this video because I can add new shortcuts to my flow
+https://www.youtube.com/watch?v=QeJkAs_PEQQ
 
 Bit
 UKW9 3N55 NE5X EDHU 330X Z3HQ CYPV CFQA
