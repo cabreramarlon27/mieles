@@ -3,3 +3,6 @@ asdasrcu,qd atsdasd
 
 # Links for review
 * https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/
+
+#Link for the first vimrc with lua 
+https://github.com/ThePrimeagen/.dotfiles/blob/master/nvim/.config/nvim/lua/theprimeagen/init.lua
