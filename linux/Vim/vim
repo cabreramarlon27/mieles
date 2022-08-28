@@ -1,8 +1,16 @@
 # Shorcuts
-asdasrcu,qd atsdasd 
+## Move between vim windows
+ctrl w l and ctrl w h to move back and forward
+ctrl w v : split vertically
+ctrl w s : split horizontally
 
 # Links for review
 * https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/
 
 #Link for the first vimrc with lua 
 https://github.com/ThePrimeagen/.dotfiles/blob/master/nvim/.config/nvim/lua/theprimeagen/init.lua
+
+Open multiple files in tabs with vim
+vim -p files
+
+ Check how store vim sessions to save state

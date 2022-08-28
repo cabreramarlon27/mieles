@@ -11,6 +11,6 @@ new window ctrl+a + c
 swith window key + n or p
 list window key + w
 delete current window key + &
-
+Rename window ctrl+a ,
 Need to add this things when use SSH
 https://carlosbecker.dev/posts/ssh-tips-and-tricks/
