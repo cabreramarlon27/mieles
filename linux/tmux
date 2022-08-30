@@ -1,16 +1,34 @@
-Sessions -> tmux list-sessions
-Save sessions -> new-session -s hello
-Kill session -> kill-session -t hello
-Enter in copy mode -> prefix [
-Quit copy mode -> Q
-Scroll up in copy mode -> Ctrl u
-Scroll down in copy mode -> Ctrl d
-Search in copy mode -> /
-Detach session ctrl+a + d
-new window ctrl+a + c
-swith window key + n or p
-list window key + w
-delete current window key + &
-Rename window ctrl+a ,
+# Tmux command options
+- Sessions -> tmux list-sessions
+- Session tmux attach -t [nombre] -> Attach existing session
+- Save sessions -> new-session -s hello
+- Kill session -> kill-session -t hello
+- Enter in copy mode -> prefix [
+- Quit copy mode -> Q
+- Scroll up in copy mode -> Ctrl u
+- Scroll down in copy mode -> Ctrl d
+- Search in copy mode -> /
+- Detach session key + d
+- new window key + c
+- swith window key + n or p
+- list window key + w
+- delete current window key + &
+- Rename window key + ,
+- abrir otra session en paralelo tmux attach #
+
+# Shorcuts inside tmux
+- Ayuda <p> ?
+- Nueva ventana <p> c
+- Siguiente ventana <p> + n
+- Listar todas las ventanas <prefijo> +w
+- Cambiar el nombre de una ventana <prefijo> +
+- Dividir paneles verticalmente<prefijo> +%
+- Dividir paneles horizontalmente<prefijo> + "
+- Cerrar panel <prefijo> +x
+- Mostrar números de paneles<prefijo> +q
+- Cambiar entre paneles<prefijo> +tecla de flech
+- listar sessiones tmux ls
+
+# Nice to have
 Need to add this things when use SSH
 https://carlosbecker.dev/posts/ssh-tips-and-tricks/

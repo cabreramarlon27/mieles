@@ -12,5 +12,29 @@ https://github.com/ThePrimeagen/.dotfiles/blob/master/nvim/.config/nvim/lua/thep
 
 Open multiple files in tabs with vim
 vim -p files
+vim -o files also open several files but hidden
 
+S for change the hole line
+
+:reg for see things that you have in your register
+Also you can set a specific register value git " + number
+
+to change between open files in buffer use b + number also bn = next file and bp = previous
+:b + tab its like alt tab or ctrl tab
+
+check :h motion and registers
+
+For completion you can use control n
+C-xC-f File paths
+C-xC-d Definition
+C-xC-j Tags
+C-xC-i Keywords
+C-xC-l Lines
+
+
+
+ 
  Check how store vim sessions to save state
+
+ Check this repo with the configs of nvim
+ https://github.com/nexxeln/nvim
