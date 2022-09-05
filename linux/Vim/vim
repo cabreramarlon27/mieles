@@ -40,3 +40,5 @@ With key - s the blame git plugin sets the git commit text
  https://github.com/nexxeln/nvim
 
  Ctrl v to enter in block mode
+ Check this repo from the vim+tmux video
+ https://github.com/nicknisi/dotfiles
