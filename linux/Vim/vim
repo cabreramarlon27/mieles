@@ -31,10 +31,12 @@ C-xC-j Tags
 C-xC-i Keywords
 C-xC-l Lines
 
-
+With key - s the blame git plugin sets the git commit text
 
  
  Check how store vim sessions to save state
 
  Check this repo with the configs of nvim
  https://github.com/nexxeln/nvim
+
+ Ctrl v to enter in block mode
