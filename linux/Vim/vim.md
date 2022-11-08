@@ -16,6 +16,19 @@ vim -o files also open several files but hidden
 
 S for change the hole line
 
+shift v will select the whole line, and if you yank it will create a new line
+
+# Motions
+_ goes to the first not empty character
+$ goes to the last character
+
+f + character goes to that forward character
+T + character goes to that backward character
+t + character goes one character previous that one
+if you press , or ; after move with f you can repeat back and forward the motion
+
+## Check how to use this motions with other commands like delete, yank or visual
+
 :reg for see things that you have in your register
 Also you can set a specific register value git " + number
 
