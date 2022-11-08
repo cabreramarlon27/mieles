@@ -42,3 +42,19 @@ With key - s the blame git plugin sets the git commit text
  Ctrl v to enter in block mode
  Check this repo from the vim+tmux video
  https://github.com/nicknisi/dotfiles
+
+# Copy thins from outside vim using registers
+"<Letter>y
+And for paste just do "<Letter>p
+
+
+In visual mode with a couple of things selected you can use something like this to edit several lines
+: '<.'>norm I<text to insert at the begining of the line> '>
+This is related to :norm commands
+
+# Go to file or go to URL
+1. gf go to the file if you are in a relative or absolute path in your file system
+2. gx go to URL in browser
+
+# Playing primagean vim game
+docker run -it --rm brandoncc/vim-be-good:latest
