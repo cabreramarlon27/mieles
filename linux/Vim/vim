@@ -1,4 +1,4 @@
-# Shorcuts
+#git@github.com:opentable/service-ot-frontdoor-config.git Shorcuts
 ## Move between vim windows
 ctrl w l and ctrl w h to move back and forward
 ctrl w v : split vertically
@@ -42,3 +42,6 @@ With key - s the blame git plugin sets the git commit text
  Ctrl v to enter in block mode
  Check this repo from the vim+tmux video
  https://github.com/nicknisi/dotfiles
+
+ To format json with JQ
+ - :%!jq . 
