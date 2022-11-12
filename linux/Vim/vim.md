@@ -27,6 +27,11 @@ T + character goes to that backward character
 t + character goes one character previous that one
 if you press , or ; after move with f you can repeat back and forward the motion
 
+ctrl i and ctrl o will move you between your previous and forward positions
+
+ci" this will move to the " in the line that you are and change te content of the "
+vi{ this will select the whole function and if you press j you will be on the bottom of the function
+% use it to move between open and closing [{" characters
 ## Check how to use this motions with other commands like delete, yank or visual
 
 :reg for see things that you have in your register
@@ -71,6 +76,14 @@ This is related to :norm commands
 # Go to file or go to URL
 1. gf go to the file if you are in a relative or absolute path in your file system
 2. gx go to URL in browser
+
+# Increment integer values 
+ctrl a
+
+# format the paragraph 
+=ap
+
+
 
 # Playing primagean vim game
 docker run -it --rm brandoncc/vim-be-good:latest
