@@ -72,3 +72,4 @@
 ## Exception Handling
 * **What is the difference between Exception and Error in java?**
     * Exception and Error classes are both subclasses of the Throwable class. The Exception class is used for exceptional conditions that a user’s program should catch. The Error class defines exceptions that are not expected to be caught by the user program.
+
